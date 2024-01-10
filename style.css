@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(238, 237, 237);
+    padding: 10px 20px;
+    height: 100px;
+}
+#leftnav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#leftnav h5{
+    font-size: 20px;
+    margin: 3px 0px ;
+}
+#leftnav p{
+    font-size: 14px;
+}
+#rightnav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#rightnav img{
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#leftcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.leftc{
+    background-color: rgb(229, 229, 229);
+    color: purple;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.first{
+    background-color: purple;
+    color: white;
+}
+#rightcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.rightc{
+    background-color: rgb(243, 243, 75);
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px ;
+}
+#boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#box{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+#top{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#leftimg{
+    width: 100px;
+}
+#leftimg img{
+    object-fit: cover;
+    width: 100px;
+}
+#rightbox{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+#rightbox button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(114, 184, 253);
+}
+#rightbox h5{
+    font-size: 20px;
+    font-weight: 200;
+}
+#rightbox p{
+    font-size: 17px;
+    color: rgb(57, 57, 57);
+    font-weight: 200;
+}
+#rupees{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#rupees p{
+    text-decoration: line-through; 
+}
+#rupees button{
+    background-color: rgb(244, 253, 244);
+    color: green; 
+}
+#bottom{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 10px;
+}
+#bottom button{
+    padding: 7px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.box-btn{
+    border: none;
+    background-color: black;
+    color: white;
+}
